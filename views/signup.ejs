@@ -1,0 +1,41 @@
+<%- include('partials/header') %>
+
+    <div class="p-5 text-center" style="background-color: rgba(0, 0, 0, 0.7); height: 100vh; position: relative;">
+        <div class="container d-flex w-75 h-75 mx-auto flex-row bg-white shadow-lg rounded-5 overflow-hidden"
+            style="max-width: 900px; padding: 0;">
+            <!-- Left form section -->
+            <div class="w-50 d-flex flex-column justify-content-center p-5" style="flex: 1;">
+                <main>
+                    <h3 class="mb-4 text-primary">Sign Up</h3>
+                    <form>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form2Example1">Email address</label>
+                            <input type="email" id="form2Example1" class="form-control form-control-lg" />
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form2Example2">Password</label>
+                            <input type="password" id="form2Example2" class="form-control form-control-lg" />
+                        </div>
+
+                        <!-- re-enter password input -->
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form2Example2">Re-enter password</label>
+                            <input type="password" id="form2Example3" class="form-control form-control-lg" />
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">Sign up</button>
+
+                    </form>
+                </main>
+            </div>
+
+            <!-- Right image section -->
+            <div class="w-50"
+                style="background-image: url('./images/book_shelf.jpg'); background-size: cover; background-position: center; flex: 1; margin: 0; padding: 0;">
+            </div>
+        </div>
+    </div>
